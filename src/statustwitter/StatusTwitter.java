@@ -21,6 +21,7 @@ public class StatusTwitter {
      
         Twitter mitwitter = new TwitterFactory().getInstance();
  
+        
         Query query = new Query("#Cangas");
         QueryResult result = mitwitter.search(query);
         for (Status status : result.getTweets()) {
