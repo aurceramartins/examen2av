@@ -20,6 +20,7 @@ public class StatusTwitter {
      */
     public static void main(String[] args) throws TwitterException {
      
+        
         Twitter mitwitter = new TwitterFactory().getInstance();
  ConfigurationBuilder cb = new ConfigurationBuilder();
 cb.setDebugEnabled(true)
